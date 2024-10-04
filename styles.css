@@ -90,3 +90,47 @@ a {
     gap: 12px;
     justify-content: space-between;
 }
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 144px;
+    gap: 24px;
+}
+
+.main-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.main-contents {
+    display: flex;
+    gap: 24px;
+    width: 800px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-content-square {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    flex: 1 0 auto;
+    height: auto;
+}
+
+.main-content-square:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.main-content-caption {
+    text-align: center;
+}

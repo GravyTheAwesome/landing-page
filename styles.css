@@ -63,6 +63,7 @@ body {
 
 .head-bar-title {
     font-size: 24px;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -133,4 +134,33 @@ a {
 
 .main-content-caption {
     text-align: center;
+}
+
+.quote-section {
+    padding: 96px 144px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 750px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
 }
